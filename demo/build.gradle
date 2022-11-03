@@ -1,5 +1,13 @@
-//add everything here
+group = 'com.epam'
+version = '2.1'
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':utils')
+}
 test {
     useJUnitPlatform()
 }
